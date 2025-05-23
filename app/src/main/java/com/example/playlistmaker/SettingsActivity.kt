@@ -17,13 +17,9 @@ class SettingsActivity : AppCompatActivity() {
             view.updatePadding(top = statusBar.top)
             insets
         }
-
         val backClickEvent = findViewById<MaterialToolbar>(R.id.settings_material_toolbar)
         backClickEvent.setNavigationOnClickListener {
             finish()
         }
-
-
-
     }
 }
